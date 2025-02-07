@@ -1,10 +1,11 @@
 import java.util.Scanner;
 import Classes.Input;
+import Classes.JavaOutputFormatting;
 
 public class App {
     public static void main(String[] args) throws Exception {
-       Input deneme = new Input();
-        deneme.OkumaYazma();
+       JavaOutputFormatting s1 = new JavaOutputFormatting();    
+         s1.duzenliEkranCiktisi();
        
         
     }
